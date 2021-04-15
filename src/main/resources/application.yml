@@ -1,0 +1,10 @@
+server:
+  port: 13145
+
+# 七牛云存储
+oss:
+  qiniu:
+    domain: http://cdn.some.wiki # 访问域名(默认使用七牛云测试域名)
+    accessKey: S0ElkEa285__NsGvAP6BvEBYffUbbuG50B7SLKk5 # 公钥
+    secretKey: gv7XIYUOJjiGUrH38I25wM5JnZWIx0V4Tp2ESwYF # 私钥
+    bucketName: zzsome  #存储空间名称
